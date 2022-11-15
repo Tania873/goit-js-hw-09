@@ -67,6 +67,7 @@ const timer = {
 };
 
 const onStartBtnClick = event => {
+  startBtnEl.disabled = true;
   timer.start();
 };
 
